@@ -58,6 +58,23 @@ li {
 .image img {
   width: 300px;
   height: auto;
+  margin-bottom: 24px;
+}
+
+.column{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#heading{
+  position: absolute;
+  color: #000;
+}
+
+.display-none{
+  display: none;
 }
 
 .modal {
@@ -141,7 +158,8 @@ li {
 .image:hover {
   transform: scale(1.1);
   transition: 0.1s linear;
-  filter: brightness(75%);
+  filter: brightness(50%);
+  cursor: pointer;
 }
 
     /* CTA */
